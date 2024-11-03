@@ -1,0 +1,43 @@
+#container{
+    width:80%;
+    margin:auto;
+    text-align: center;  
+    
+}
+
+
+h1{
+    color: rgb(200, 56,203 );
+    text-align: center;
+    font-size: 300%
+}
+h2{
+    padding: 3px;
+    text-align: center;
+    background-color: pink;
+    font-size: 300%;
+}
+#ruleSet1{
+    font-size: 150%;
+    text-align: center;
+}
+#ruleSet2{
+    font-size: 150%;
+    text-align: center;
+}
+#ruleSet{
+    font-size: 150%;
+    text-align: center;
+}
+#timerDisplay {
+    position: absolute;
+    top: 55%;
+    right: 500px;
+    font-size: 40px;
+    color: #ff0000;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
