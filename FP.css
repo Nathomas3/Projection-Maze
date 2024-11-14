@@ -5,6 +5,10 @@
     
 }
 
+body {
+    background-color: black;
+}
+
 
 h1{
     color: rgb(200, 56,203 );
@@ -29,15 +33,5 @@ h2{
     font-size: 150%;
     text-align: center;
 }
-#timerDisplay {
-    position: absolute;
-    top: 55%;
-    right: 500px;
-    font-size: 40px;
-    color: #ff0000;
-    font-family: Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 5px;
-  }
+
 

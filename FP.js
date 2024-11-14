@@ -7,8 +7,9 @@ var color = 0;
 var oneDegree = 2*Math.PI/360;
 var a = 0; // Outer Boarder
 var aMaze = 1;
-var radiusMaze = 1; // The red balls
-var timeRemaining = 100000
+var radiusMaze = 1.3; // The red balls
+
+
 
 
 
@@ -108,9 +109,9 @@ var c1 ={
 //OUTER MAZE INVISIBLE BORDER PROPERTIES:
 //this will alllow the character to remain withinn the maze structure and return it to the starting point if it strays too far
 var b1 = {
-    x:w/11,
+    x:w/11, //91
     changeX: 1,
-    y: h/16,
+    y: h/16, //44
     changeY:1,
     r: 10,
     c: -18,
@@ -118,9 +119,9 @@ var b1 = {
     angle: 0,
 }
 var b2 = {
-    x:w/11,
+    x:w/11, //91
     changeX: 1,
-    y: h/11,
+    y: h/11, //64
     changeY:1,
     r: 10,
     c: -18,
@@ -128,7 +129,7 @@ var b2 = {
     angle: 0,
 }
 var b3 = {
-    x:w/12,
+    x:w/12, //83.333
     changeX: 1,
     y: 8.5*h/9,
     changeY:1,
@@ -670,39 +671,23 @@ var m51 = {
 
 setUpCanvas();
 animationLoop();
-clearInterval(timerInterval);
+clearInterval();
 
-function startTimer() {
-    timerInterval = setInterval(function() {
-        timeRemaining--;
-        let minutes = Math.floor(timeRemaining /100000);
-        let seconds = timeRemaining % 100000;
-        document.getElementById("timerDisplay").textContent = 
-            `${minutes < 0 ? '0' : ''}${minutes}:${seconds < 0 ? '0' : ''}${seconds}`;
-
-        if (timeRemaining <= 0) {
-            clearInterval(timerInterval);
-            document.getElementById("timerDisplay").textContent = "Time's up!";
-            // You can add any additional actions for when the timer ends here.
-        }
-    }, 1000);
-}
 
 
 
 //USER INTERACTION
     document.querySelector("#myCanvas").onclick = function(e){click(e, c1)};
     document.onkeydown =  function (e){keyDown(e,c1)
-        if (!timerInterval) startTimer(); // Start timer only once on first click
     };
 
-    
+
 
 
 function animationLoop(){
     clear();
     maze(m1);
-    startTimer();
+   
 
    
  
@@ -909,6 +894,9 @@ function animationLoop(){
     collision(c1,b2);
     collision(c1,b3);
     collision(c1,b4);
+
+  
+    
 
 requestAnimationFrame(animationLoop);
 }
@@ -1628,7 +1616,7 @@ function maze(o){
     ctx.stroke();
  }
 
- //Timer function?
+
 
 
  function clear(){ 
