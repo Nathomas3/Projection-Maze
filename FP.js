@@ -1353,22 +1353,22 @@ function keyDown(e,c1){
     if(e.key == "ArrowUp"){
         console.log("Spaceship Moves Up");
             c1.angle = 270;
-            c1.distance += 1;
+            c1.distance = 1;
     }
     if(e.key == "ArrowDown"){
         console.log("Spaceship Moves Down");
             c1.angle = 90; 
-            c1.distance += 1;
+            c1.distance = 1;
     }
     if(e.key == "ArrowRight"){ 
         console.log("Spaceship Moves Right");
             c1.angle = 0; 
-            c1.distance += 1;
+            c1.distance = 1;
     }
     if(e.key == "ArrowLeft"){ 
         console.log("Spaceship Moves Left");
             c1.angle = 180; 
-            c1.distance += 1;
+            c1.distance = 1;
     }
     if(e.key == " "){
         console.log ("STOP");
