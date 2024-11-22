@@ -6,7 +6,7 @@ var color = 0;
 var oneDegree = 2*Math.PI/360;
 var a = 0; // Outer Boarder
 var aMaze = 1;
-var radiusMaze =2; // The red balls
+var radiusMaze = 2; // The red balls
 
 
 
@@ -28,8 +28,67 @@ var m1 ={
 
 //BOUNCING OBSTACLE BALL, OBJECT PROPERTIES:
 //if the character comes in contact with these balls it will return to the starting point:
+var o1 ={ 
+    x:1.6*w/8,
+    changeX: 10,
+    y: h/9,
+    changeY:10,
+    r: 20,
+    c: 71.7,
+    a: 1,
+    distance: 10,
+    angle: rand(360),
+    
+}
+var o3 ={ 
+    x:2.78*w/8,
+    changeX: 10,
+    y: h/9,
+    changeY:10,
+    r: 20,
+    c: 71.7,
+    a: 1,
+    distance: 7,
+    angle: rand(360),
+    
+}
+var o5 ={ 
+    x:3.98*w/8,
+    changeX: 10,
+    y: h/9,
+    changeY:10,
+    r: 20,
+    c: 71.7,
+    a: 1,
+    distance: 7,
+    angle: rand(360),
+    
+}
+var o7 ={ 
+    x:5.16*w/8,
+    changeX: 10,
+    y: h/9,
+    changeY:10,
+    r: 20,
+    c: 71.7,
+    a: 1,
+    distance: 7,
+    angle: rand(360),
+    
+}
+var o9 ={ 
+    x:6.35*w/8,
+    changeX: 10,
+    y: h/9,
+    changeY:10,
+    r: 20,
+    c: 71.7,
+    a: 1,
+    distance: 7,
+    angle: rand(360),
+    
+}
 
-  
 
 //CHARACTER OBJECT PROPERTY
 var c1 ={ 
@@ -102,7 +161,7 @@ var m2 = {
     y: h/11,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -112,7 +171,7 @@ var m3 = {
     y: h/11,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -122,7 +181,7 @@ var m4 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -132,7 +191,7 @@ var m5 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -142,7 +201,7 @@ var m6 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -152,7 +211,7 @@ var m7 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -162,7 +221,7 @@ var m8 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -172,7 +231,7 @@ var m9 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -182,7 +241,7 @@ var m10 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -192,7 +251,7 @@ var m11 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -202,7 +261,7 @@ var m12 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -212,7 +271,7 @@ var m13 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -222,7 +281,7 @@ var m14 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -232,7 +291,7 @@ var m15 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -242,7 +301,7 @@ var m16 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -252,7 +311,7 @@ var m17 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -262,7 +321,7 @@ var m18 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -272,7 +331,7 @@ var m14 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -282,7 +341,7 @@ var m19 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -292,7 +351,7 @@ var m20 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -302,7 +361,7 @@ var m21 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c:71.7,
     a: aMaze,
     angle: 0,
 }
@@ -312,7 +371,7 @@ var m22 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -322,7 +381,7 @@ var m23 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -332,7 +391,7 @@ var m24 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -342,7 +401,7 @@ var m25 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -352,7 +411,7 @@ var m26 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c:71.7,
     a: aMaze,
     angle: 0,
 }
@@ -362,7 +421,7 @@ var m27 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -372,7 +431,7 @@ var m28 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -382,7 +441,7 @@ var m29 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -392,7 +451,7 @@ var m30 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -402,7 +461,7 @@ var m31 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c:71.7,
     a: aMaze,
     angle: 0,
 }
@@ -412,7 +471,7 @@ var m32 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -422,7 +481,7 @@ var m33 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -432,7 +491,7 @@ var m34 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -442,7 +501,7 @@ var m35 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -452,7 +511,7 @@ var m36 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -462,7 +521,7 @@ var m37 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -472,7 +531,7 @@ var m38 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -482,7 +541,7 @@ var m39 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -492,7 +551,7 @@ var m40 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -502,7 +561,7 @@ var m41 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -512,7 +571,7 @@ var m42 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -522,7 +581,7 @@ var m43 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -532,7 +591,7 @@ var m44 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     distance: 2,
     angle: 0,
@@ -543,7 +602,7 @@ var m45 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -553,7 +612,7 @@ var m46 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -563,7 +622,7 @@ var m47 = {
     y: h/2,
     changeY:1,
     r:radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -573,7 +632,7 @@ var m48 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -583,7 +642,7 @@ var m49 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -593,7 +652,7 @@ var m50 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -603,7 +662,7 @@ var m51 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: -30,
+    c: 71.7,
     a: aMaze,
     angle: 0,
 }
@@ -802,29 +861,33 @@ function animationLoop(){
     }
     
 //CIRCLE FUNCTIONS:  
-    circle(o1);
-    circle(o3);
-    circle(o5);
-    circle(o7);
-    circle(o9);
+    //circle(o1);
+    //circle(o3);
+   // circle(o5);
+    //circle(o7);
+    // circle(o9);
     circle(c1);
     forward(c1);
     
 //Bounce Function:
-    bounceCircle1(o1);
-    setTimeout(function() {
-        bounceCircle3(o3);
-     },200);
+    // bounceCircle1(o1);
+    // setTimeout(function() {
+    //     bounceCircle3(o3);
+    //  },200);
 
-    bounceCircle5(o5);
-    setTimeout(function() {
-        bounceCircle7(o7);
-     },200);
+    // bounceCircle5(o5);
+    // setTimeout(function() {
+    //     bounceCircle7(o7);
+    //  },200);
 
-    bounceCircle9(o9);
+    // bounceCircle9(o9);
     
 //Obstacle Bounce collision with Character;
-
+    // collision(c1, o1);
+    // collision(c1, o3);
+    // collision(c1, o5);
+    // collision(c1, o7);
+    // collision(c1, o9);
 //Outer Border Collision with Character (keeping the character within the canvas)
     collision(c1,b1);
     collision(c1,b2);
@@ -1289,22 +1352,22 @@ function keyDown(e,c1){
     if(e.key == "ArrowUp"){
         console.log("Spaceship Moves Up");
             c1.angle = 270;
-            c1.distance =2;
+            c1.distance = 2;
     }
     if(e.key == "ArrowDown"){
         console.log("Spaceship Moves Down");
             c1.angle = 90; 
-            c1.distance =2; //used to have a + before =, to increase speed with each press
+            c1.distance = 2; //used to have a + before =, to increase speed with each press
     }
     if(e.key == "ArrowRight"){ 
         console.log("Spaceship Moves Right");
             c1.angle = 0; 
-            c1.distance =2;
+            c1.distance = 2;
     }
     if(e.key == "ArrowLeft"){ 
         console.log("Spaceship Moves Left");
             c1.angle = 180; 
-            c1.distance =2;
+            c1.distance = 2;
     }
     if(e.key == " "){
         console.log ("STOP");
@@ -1319,7 +1382,63 @@ function keyDown(e,c1){
 
 
 
- 
+ //Bounce Function:
+function bounceCircle3(o){
+    o.x += o.changeX;
+    o.y += o.changeY;
+   if(o.x = 2.78*w/8 ){
+       o.changeX *= -1;
+   }
+   if (o.y>h || o.y < 0){
+       o.changeY *= -1;
+ }
+   
+}
+function bounceCircle1(o){
+    o.x += o.changeX;
+    o.y += o.changeY;
+   if(o.x = 1.6*w/8){
+       o.changeX *= -1;
+   }
+   if (o.y>h || o.y < 0){
+       o.changeY *= -1;
+ }
+   
+}
+function bounceCircle5(o){
+    o.x += o.changeX;
+    o.y += o.changeY;
+   if(o.x = 3.98*w/8){
+       o.changeX *= -1;
+   }
+   if (o.y>h || o.y < 0){
+       o.changeY *= -1;
+ }
+   
+}
+function bounceCircle7(o){
+    o.x += o.changeX;
+    o.y += o.changeY;
+   if(o.x = 5.16*w/8){
+       o.changeX *= -1;
+   }
+   if (o.y>h || o.y < 0){
+       o.changeY *= -1;
+ }
+   
+}
+function bounceCircle9(o){
+    o.x += o.changeX;
+    o.y += o.changeY;
+   if(o.x = 6.35*w/8){
+       o.changeX *= -1;
+   }
+   if (o.y>h || o.y < 0){
+       o.changeY *= -1;
+ }
+   
+}
+
 
 
 
