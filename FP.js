@@ -883,11 +883,7 @@ function animationLoop(){
     bounceCircle9(o9);
     
 //Obstacle Bounce collision with Character;
-    collision(c1, o1);
-    collision(c1, o3);
-    collision(c1, o5);
-    collision(c1, o7);
-    collision(c1, o9);
+
 //Outer Border Collision with Character (keeping the character within the canvas)
     collision(c1,b1);
     collision(c1,b2);
@@ -1382,63 +1378,7 @@ function keyDown(e,c1){
 
 
 
- //Bounce Function:
-function bounceCircle3(o){
-    o.x += o.changeX;
-    o.y += o.changeY;
-   if(o.x = 2.78*w/8 ){
-       o.changeX *= -1;
-   }
-   if (o.y>h || o.y < 0){
-       o.changeY *= -1;
- }
-   
-}
-function bounceCircle1(o){
-    o.x += o.changeX;
-    o.y += o.changeY;
-   if(o.x = 1.6*w/8){
-       o.changeX *= -1;
-   }
-   if (o.y>h || o.y < 0){
-       o.changeY *= -1;
- }
-   
-}
-function bounceCircle5(o){
-    o.x += o.changeX;
-    o.y += o.changeY;
-   if(o.x = 3.98*w/8){
-       o.changeX *= -1;
-   }
-   if (o.y>h || o.y < 0){
-       o.changeY *= -1;
- }
-   
-}
-function bounceCircle7(o){
-    o.x += o.changeX;
-    o.y += o.changeY;
-   if(o.x = 5.16*w/8){
-       o.changeX *= -1;
-   }
-   if (o.y>h || o.y < 0){
-       o.changeY *= -1;
- }
-   
-}
-function bounceCircle9(o){
-    o.x += o.changeX;
-    o.y += o.changeY;
-   if(o.x = 6.35*w/8){
-       o.changeX *= -1;
-   }
-   if (o.y>h || o.y < 0){
-       o.changeY *= -1;
- }
-   
-}
-
+ 
 
 
 
