@@ -28,67 +28,8 @@ var m1 ={
 
 //BOUNCING OBSTACLE BALL, OBJECT PROPERTIES:
 //if the character comes in contact with these balls it will return to the starting point:
-var o1 ={ 
-    x:1.6*w/8,
-    changeX: 10,
-    y: h/9,
-    changeY:10,
-    r: 20,
-    c: 71.7,
-    a: 1,
-    distance: 10,
-    angle: rand(360),
-    
-}
-var o3 ={ 
-    x:2.78*w/8,
-    changeX: 10,
-    y: h/9,
-    changeY:10,
-    r: 20,
-    c: 71.7,
-    a: 1,
-    distance: 7,
-    angle: rand(360),
-    
-}
-var o5 ={ 
-    x:3.98*w/8,
-    changeX: 10,
-    y: h/9,
-    changeY:10,
-    r: 20,
-    c: 71.7,
-    a: 1,
-    distance: 7,
-    angle: rand(360),
-    
-}
-var o7 ={ 
-    x:5.16*w/8,
-    changeX: 10,
-    y: h/9,
-    changeY:10,
-    r: 20,
-    c: 71.7,
-    a: 1,
-    distance: 7,
-    angle: rand(360),
-    
-}
-var o9 ={ 
-    x:6.35*w/8,
-    changeX: 10,
-    y: h/9,
-    changeY:10,
-    r: 20,
-    c: 71.7,
-    a: 1,
-    distance: 7,
-    angle: rand(360),
-    
-}
 
+  
 
 //CHARACTER OBJECT PROPERTY
 var c1 ={ 
