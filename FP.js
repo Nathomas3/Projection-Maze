@@ -6,7 +6,7 @@ var color = 0;
 var oneDegree = 2*Math.PI/360;
 var a = 0; // Outer Boarder
 var aMaze = 1;
-var radiusMaze = 5; // The red balls
+var radiusMaze = 2; // The red balls
 
 
 
