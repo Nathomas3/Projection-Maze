@@ -558,7 +558,7 @@ var m40 = {
 var m41 = {
     x:2*w/10,
     changeX: 1,
-    y: h/2,
+    y: 3*h/2,
     changeY:1,
     r: radiusMaze,
     c: 71.7,
