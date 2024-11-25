@@ -21,7 +21,7 @@ var m1 ={
     y: h/9,
     w: 74,
     h: 55,
-    c: 350,
+    c: 30,
     a: 1,
     lw: 5,
 }
@@ -171,7 +171,7 @@ var m3 = {
     y: h/11,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -181,7 +181,7 @@ var m4 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -201,7 +201,7 @@ var m6 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -211,7 +211,7 @@ var m7 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -221,7 +221,7 @@ var m8 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 71.1,
     a: aMaze,
     angle: 0,
 }
@@ -231,7 +231,7 @@ var m9 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -251,7 +251,7 @@ var m11 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -261,7 +261,7 @@ var m12 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -281,7 +281,7 @@ var m14 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -291,7 +291,7 @@ var m15 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -301,7 +301,7 @@ var m16 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -321,7 +321,7 @@ var m18 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -341,7 +341,7 @@ var m19 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -361,7 +361,7 @@ var m21 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c:71.7,
+    c:30,
     a: aMaze,
     angle: 0,
 }
@@ -381,7 +381,7 @@ var m23 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -411,7 +411,7 @@ var m26 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c:71.7,
+    c:30,
     a: aMaze,
     angle: 0,
 }
@@ -421,7 +421,7 @@ var m27 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -481,7 +481,7 @@ var m33 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -491,7 +491,7 @@ var m34 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -501,7 +501,7 @@ var m35 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -511,7 +511,7 @@ var m36 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -541,7 +541,7 @@ var m39 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -551,17 +551,27 @@ var m40 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m40_1 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
 var m41 = {
     x:2*w/10,
     changeX: 1,
-    y: 3*h/2,
+    y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -571,7 +581,7 @@ var m42 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -581,7 +591,7 @@ var m43 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -591,7 +601,7 @@ var m44 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     distance: 2,
     angle: 0,
@@ -602,7 +612,7 @@ var m45 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -622,7 +632,7 @@ var m47 = {
     y: h/2,
     changeY:1,
     r:radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -642,7 +652,7 @@ var m49 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 71.1,
     a: aMaze,
     angle: 0,
 }
@@ -652,7 +662,7 @@ var m50 = {
     y: h/2,
     changeY:1,
     r: radiusMaze,
-    c: 71.7,
+    c: 30,
     a: aMaze,
     angle: 0,
 }
@@ -666,6 +676,37 @@ var m51 = {
     a: aMaze,
     angle: 0,
 }
+var m52 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m53 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m54 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.1,
+    a: aMaze,
+    angle: 0,
+}
+
 
 
 setUpCanvas();
@@ -820,9 +861,17 @@ function animationLoop(){
         circle(m39);
         updateData3_38(m39);
         collisionMaze(c1,m39);
+        circle(m39);
+        updateData3_38(m39);
+        collisionMaze(c1,m39);
         circle(m40);
         updateData3_39(m40);
         collisionMaze(c1,m40);
+
+        circle(m40_1);
+        updateData3_39_1(m40_1);/////////////////////
+        collisionMaze(c1,m40_1);
+
         circle(m41);
         updateData3_40(m41);
         collisionMaze(c1,m41);
@@ -850,12 +899,21 @@ function animationLoop(){
         circle(m49);
         updateData3_48(m49);
         collisionMaze(c1,m49);
-        circle(m50);
+        circle(m50);/////////////////////////////////////////////////////////////////
         updateData3_49(m50);
-        collisionMaze(c1,m45);
+        collisionMaze(c1,m50);
         circle(m51);
         updateData3_50(m51);
         collisionMaze(c1,m51);
+        circle(m52);
+        updateData3_51(m52);
+        collisionMaze(c1,m52);
+        circle(m53);
+        updateData3_52(m53);
+        collisionMaze(c1,m53);
+        circle(m54);
+        updateData3_53(m54);
+        collisionMaze(c1,m54);
 
 
     }
@@ -914,7 +972,7 @@ function collision(object1,object2){
             object1.angle += 180-2*object1.angle; //basically bounce off in a straight line
             object2.angle += 180-2*object2.angle;
         //these were added so an action (the balls move around randomly) occurs after collision.
-            object1.x = w/8;
+            object1.x = w/17;
             object1.y = h/6.6;
             object1.angle = 0;
             object1.distance = 1;
@@ -922,7 +980,7 @@ function collision(object1,object2){
              object1.angle += 360-2*object1.angle ; //if the yddistannce is biggeer than the xdifference
              object2.angle += 360-2*object2.angle;
 
-             object1.x = w/8;
+             object1.x = w/17;
              object1.y = h/6.6;
              object1.angle = 0;
              object1.distance = 1;
@@ -942,10 +1000,10 @@ function collisionMaze(object1,object2){
             object1.angle += 180-2*object1.angle; //basically bounce off in a straight line
             object2.angle += 180-2*object2.angle;
         //these were added so an action (the balls move around randomly) occurs after collision.
-        object1.x = w/8;
+        object1.x = w/17;
             object1.y = h/6.6;
             object1.angle = 0;
-            object1.distance = 1;object1.x = w/8;
+            object1.distance = 1;object1.x = w/17;
             object1.y = h/6.6;
             object1.angle = 0;
             object1.distance = 1;
@@ -954,7 +1012,7 @@ function collisionMaze(object1,object2){
              object1.angle += 360-2*object1.angle ; //if the yddistannce is biggeer than the xdifference
              object2.angle += 360-2*object2.angle;
 
-             object1.x = w/8;
+             object1.x = w/17;
             object1.y = h/6.6;
             object1.angle = 0;
             object1.distance = 1;
@@ -978,59 +1036,61 @@ function updateData2(o){
     o.y = o.y + 20;
     if (o.y > h){
         o.y = 0;
+        o.x = 0.25*w/12;
     }
 }
 function updateData3_1(o){
     o.y = o.y + 20;
-    if (o.y > 630){
-        o.y = h/5;
+    if (o.y > 570){
+        o.y = h/5; // o.y = 2*h/9;
+        o.x = 0.3*w/10;
     }
 }
 function updateData3_2(o){
     o.y = o.y + 20;
-    if (o.y > 240){
+    if (o.y > 220){
         o.y = h/5;
        // o.x = w/2;
     }
 }
 function updateData3_3(o){
     o.y = o.y + 20;
-    if (o.y > 580){
+    if (o.y > 520){
         o.y = 5*h/8.5;
-       // o.x = w/2;
+        o.x = 2.17*w/10;
     }
 }
 function updateData3_4(o){
     o.y = o.y + 20;
-    if (o.y > 190){
+    if (o.y > 180){
         o.y = h/8.5;
         o.x = 3.47*w/10;
     }
 }
 function updateData3_5(o){
     o.y = o.y + 20;
-    if (o.y > 420){
-        o.y = 2*h/5.8;
-        o.x = 2.73*w/10;
+    if (o.y > 400){
+        o.y = 2.8*h/5.8;
+        o.x = 2.9*w/10;
     }
 }
 function updateData3_6(o){
     o.y = o.y + 20;
-    if (o.y > 360){
-        o.y = 3.9*h/9;
+    if (o.y > 320){
+        o.y = 2.95*h/9;
         o.x = w/2.87;
     }
 }
 function updateData3_7(o){
     o.y = o.y + 20;
-    if (o.y > 630){
+    if (o.y > 580){
         o.y = 6.7*h/9;
         o.x = 3.12*w/9;
     }
 }
 function updateData3_8(o){
     o.y = o.y + 20;
-    if (o.y > 575){
+    if (o.y > 520){
         o.y = 4.6*h/9;
         o.x = 3.79*w/9;
     }
@@ -1038,20 +1098,20 @@ function updateData3_8(o){
 function updateData3_9(o){
     o.y = o.y + 20;
     if (o.y > 180){
-        o.y = 1.8*h/9;
-        o.x = 3.79*w/9;
+        o.y = 1.75*h/9;
+        o.x = 3.9*w/9;
     }
 }
 function updateData3_10(o){
     o.y = o.y + 20;
     if (o.y > 300){
-        o.y = 3.2*h/9;
+        o.y = 2.95*h/9;
         o.x = 3.79*w/9;
     }
 }
 function updateData3_11(o){
     o.y = o.y + 20;
-    if (o.y > 250){
+    if (o.y > 210){
         o.y = 1.7*h/9;
         o.x = 4.45*w/9;
     }
@@ -1079,8 +1139,8 @@ function updateData3_14(o){
 }
 function updateData3_15(o){
     o.y = o.y + 20;
-    if (o.y > 580){
-        o.y = 6*h/9;
+    if (o.y > 570){
+        o.y = 6.65*h/9;
         o.x = 5.13*w/9;
     }
 }
@@ -1100,16 +1160,16 @@ function updateData3_17(o){
 }
 function updateData3_18(o){
     o.y = o.y + 20;
-    if (o.y > 470){
+    if (o.y > 360){
         o.y = 2.5*h/9;
         o.x = 5.79*w/9;
     }
 }
 function updateData3_19(o){
     o.y = o.y + 20;
-    if (o.y > 640){
-        o.y = 6.7*h/9;
-        o.x = 5.79*w/9;
+    if (o.y > 570){
+        o.y = 10*h/13.5;
+        o.x = 6*w/9;
     }
 }
 function updateData3_20(o){
@@ -1121,7 +1181,7 @@ function updateData3_20(o){
 }
 function updateData3_21(o){
     o.y = o.y + 20;
-    if (o.y > 570){
+    if (o.y > 528){
         o.y = 6*h/9;
         o.x = 7.12*w/9;
     }
@@ -1149,21 +1209,22 @@ function updateData3_24(o){
 }
 function updateData3_25(o){
     o.y = o.y + 20;
-    if (o.y > 570){
+    o.x = o.x - 4;
+    if (o.y > 510){
         o.y = 1*h/9;
-        o.x = 7.79*w/9;
+        o.x = 8.59*w/9;
     }
 }
 function updateData3_26(o){
     o.x = o.x + 20;
-    if (o.x > 870){
-        o.x = 1.2*w/9;
+    if (o.x > 950){
+        o.x = 0.5*w/9;
         o.y = h/9
     }
 }
 function updateData3_27(o){
     o.x = o.x + 20;
-    if (o.x > 280){
+    if (o.x > 290){
         o.x = 1.9*w/9;
         o.y = 1.72*h/9
     }
@@ -1172,37 +1233,39 @@ function updateData3_28(o){
     o.x = o.x + 20;
     if (o.x > 420){
         o.x = 1.9*w/9;
-        o.y = 3.13*h/9
+        o.y = 2.93*h/9
     }
 }
 function updateData3_29(o){
     o.x = o.x + 20;
     if (o.x > 420){
         o.x = 2.5*w/9;
-        o.y = 2.39*h/9
+        o.y = 2.26*h/9
     }
 }
 function updateData3_30(o){
     o.x = o.x + 20;
-    if (o.x > 360){
-        o.x = 1.9*w/9;
+    if (o.x > 340){
+        o.x = 2.1*w/9;
         o.y = 5.26*h/9
     }
 }
 function updateData3_31(o){
     o.x = o.x + 20;
     if (o.x > 420){
-        o.x = 1.9*w/9;
+        o.x = 2.1*w/9;
         o.y = 5.95*h/9
     }
 }
 function updateData3_32(o){
-    o.x = o.x + 20;
-    if (o.x > 280){
-        o.x = 1.9*w/9;
-        o.y = 7.35*h/9
+    o.x = o.x + 30;
+    o.y = o.y - 25;
+    if (o.x > 275){
+        o.x = 3.5*w/28;
+        o.y = 6.5*h/11;
     }
 }
+/////////////////////////////////////////////////////////////////////
 function updateData3_33(o){
     o.x = o.x + 20;
     if (o.x > 340){
@@ -1233,7 +1296,7 @@ function updateData3_36(o){
 }
 function updateData3_37(o){
     o.x = o.x + 20;
-    if (o.x > 560){
+    if (o.x > 640){
         o.x = 4.5*w/9;
         o.y = 5.25*h/9
     }
@@ -1247,16 +1310,25 @@ function updateData3_38(o){
 }
 function updateData3_39(o){
     o.x = o.x + 20;
-    if (o.x > 580){
-        o.x = 3.8*w/9;
-        o.y = 7.35*h/9
+    o.y = o.y + 3
+    if (o.x > 290){
+        o.x = 2.1*w/9;
+        o.y = 3.5*h/9
     }
-}
+}////////////////////////////////////////
+function updateData3_39_1(o){
+    o.x = o.x + 20;
+    o.y = o.y + 13
+    if (o.x > 130){
+        o.x = 0.8*w/9;
+        o.y = 5.0*h/9
+    }
+}/////////////////////////////////////////////////////////////////////
 function updateData3_40(o){
     o.x = o.x + 20;
-    if (o.x > 880){
-        o.x = 1*w/9;
-        o.y = 8.05*h/9
+    if (o.x > 855){
+        o.x = 0.4*w/9;
+        o.y = 7.4*h/9
     }
 }
 function updateData3_41(o){
@@ -1282,29 +1354,29 @@ function updateData3_43(o){
 }
 function updateData3_44(o){
     o.x = o.x + 20;
-    if (o.x > 800){
+    if (o.x > 870){
         o.x = 6.5*w/9;
         o.y = 1.7*h/9
     }
 }
 function updateData3_45(o){
     o.x = o.x + 20;
-    if (o.x > 800){
+    if (o.x > 860){
         o.x = 6.5*w/9;
         o.y = 3.1*h/9
     }
 }
 function updateData3_46(o){
     o.x = o.x + 20;
-    if (o.x > 880){
-        o.x = 7.2*w/9;
+    if (o.x > 930){
+        o.x = 7.1*w/9;
         o.y = 2.4*h/9
     }
 }
 function updateData3_47(o){
     o.x = o.x + 20;
-    if (o.x > 880){
-        o.x = 6.6*w/9;
+    if (o.x > 900){
+        o.x = 7.1*w/9;
         o.y = 3.85*h/9
     }
 }
@@ -1317,18 +1389,44 @@ function updateData3_48(o){
 }
 function updateData3_49(o){
     o.x = o.x + 20;
-    if (o.x > 780){
-        o.x = 6.6*w/9;
-        o.y = 7.35*h/9
+    o.y = o.y + -16;
+    if (o.x > 230){
+        o.x = 0.5*w/6;
+        o.y = 4.95*h/9
     }
-}
+}////////////////////////////////////////////////
 function updateData3_50(o){
     o.x = o.x + 20;
     if (o.x > 720){
         o.x = 6*w/9;
         o.y = 6.65*h/9
     }
-}
+} 
+function updateData3_51(o){
+    o.y = o.y + 20;
+    if (o.y > 290){
+        o.x = w/9;
+        o.y = 1.8*h/9;
+    }
+} 
+function updateData3_52(o){
+    o.y = o.y + 20;
+    if (o.y > 590){
+        o.x = 1.2*w/9;
+        o.y = 3.4*h/5;
+    }
+} 
+function updateData3_53(o){
+    o.x = o.x + 20;
+    if (o.x > 130){
+        o.x = 0.8*w/9;
+        o.y = 3.4*h/5;
+    }
+} 
+
+
+
+// third eight
 
 
 //USER INTERACTION FUNCTIONS:
@@ -1671,4 +1769,3 @@ console.log("Final Project");
 //     lw: 1,
 
 // }
-
