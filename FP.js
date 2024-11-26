@@ -1,7 +1,7 @@
 var canvas;
 var ctx;
-var w=1000;
-var h=700;
+var w=1450; //1000
+var h=700; //700
 var color = 0;
 var oneDegree = 2*Math.PI/360;
 var a = 0; // Outer Boarder
@@ -97,7 +97,7 @@ var c1 ={
     y: h/6.6,
     changeY:1,
     r: 15,
-    c: -18,
+    c: 0,
     a: 1,
     distance: 3,
     angle: 0,
@@ -706,6 +706,119 @@ var m54 = {
     a: aMaze,
     angle: 0,
 }
+var m55 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m56 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m57 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m58 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m59 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m60 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m61 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m62 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m63 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m64 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m65 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+
+
+
 
 
 
@@ -864,13 +977,13 @@ function animationLoop(){
         circle(m39);
         updateData3_38(m39);
         collisionMaze(c1,m39);
-        circle(m40);
-        updateData3_39(m40);
-        collisionMaze(c1,m40);
+        // circle(m40);
+        // updateData3_39(m40);
+        // collisionMaze(c1,m40);
 
-        circle(m40_1);
-        updateData3_39_1(m40_1);/////////////////////
-        collisionMaze(c1,m40_1);
+        // circle(m40_1);
+        // updateData3_39_1(m40_1);/////////////////////
+        // collisionMaze(c1,m40_1);
 
         circle(m41);
         updateData3_40(m41);
@@ -914,6 +1027,39 @@ function animationLoop(){
         circle(m54);
         updateData3_53(m54);
         collisionMaze(c1,m54);
+        circle(m55);
+        updateData3_54(m55);
+        collisionMaze(c1,m55);
+        circle(m56);
+        updateData3_55(m56);
+        collisionMaze(c1,m56);
+        circle(m57);
+        updateData3_56(m57);
+        collisionMaze(c1,m57);
+        circle(m58);
+        updateData3_57(m58);
+        collisionMaze(c1,m58);
+        circle(m59);
+        updateData3_58(m59);
+        collisionMaze(c1,m59);
+        circle(m60);
+        updateData3_59(m60);
+        collisionMaze(c1,m60);
+        circle(m61);
+        updateData3_60(m61);
+        collisionMaze(c1,m61);
+        circle(m62);
+        updateData3_61(m62);
+        collisionMaze(c1,m62);
+        circle(m63);
+        updateData3_62(m63);
+        collisionMaze(c1,m63);
+        circle(m64);
+        updateData3_63(m64);
+        collisionMaze(c1,m64);
+        circle(m65);
+        updateData3_64(m65);
+        collisionMaze(c1,m65);
 
 
     }
@@ -1046,13 +1192,15 @@ function updateData3_1(o){
         o.x = 0.3*w/10;
     }
 }
+// Third top
 function updateData3_2(o){
     o.y = o.y + 20;
     if (o.y > 220){
         o.y = h/5;
        // o.x = w/2;
     }
-}
+}  
+//third bottom
 function updateData3_3(o){
     o.y = o.y + 20;
     if (o.y > 520){
@@ -1062,21 +1210,21 @@ function updateData3_3(o){
 }
 function updateData3_4(o){
     o.y = o.y + 20;
-    if (o.y > 180){
+    if (o.y > 190){
         o.y = h/8.5;
         o.x = 3.47*w/10;
     }
 }
 function updateData3_5(o){
     o.y = o.y + 20;
-    if (o.y > 400){
-        o.y = 2.8*h/5.8;
+    if (o.y > 410){
+        o.y = 2.5*h/5.8;
         o.x = 2.9*w/10;
     }
 }
 function updateData3_6(o){
     o.y = o.y + 20;
-    if (o.y > 320){
+    if (o.y > 350){
         o.y = 2.95*h/9;
         o.x = w/2.87;
     }
@@ -1214,45 +1362,45 @@ function updateData3_25(o){
         o.y = 1*h/9;
         o.x = 8.59*w/9;
     }
-}
+}//////////////////////////////////////o.x starts
 function updateData3_26(o){
     o.x = o.x + 20;
-    if (o.x > 950){
+    if (o.x > 1400){
         o.x = 0.5*w/9;
         o.y = h/9
     }
 }
 function updateData3_27(o){
     o.x = o.x + 20;
-    if (o.x > 290){
+    if (o.x > 430){
         o.x = 1.9*w/9;
         o.y = 1.72*h/9
     }
 }
 function updateData3_28(o){
     o.x = o.x + 20;
-    if (o.x > 420){
+    if (o.x > 610){
         o.x = 1.9*w/9;
         o.y = 2.93*h/9
     }
 }
 function updateData3_29(o){
     o.x = o.x + 20;
-    if (o.x > 420){
-        o.x = 2.5*w/9;
-        o.y = 2.26*h/9
+    if (o.x > 510){
+        o.x = 2.2*w/9;
+        o.y = 2.36*h/9
     }
 }
 function updateData3_30(o){
     o.x = o.x + 20;
-    if (o.x > 340){
+    if (o.x > 480){
         o.x = 2.1*w/9;
         o.y = 5.26*h/9
     }
 }
 function updateData3_31(o){
     o.x = o.x + 20;
-    if (o.x > 420){
+    if (o.x > 600){
         o.x = 2.1*w/9;
         o.y = 5.95*h/9
     }
@@ -1260,7 +1408,7 @@ function updateData3_31(o){
 function updateData3_32(o){
     o.x = o.x + 30;
     o.y = o.y - 25;
-    if (o.x > 275){
+    if (o.x > 350){
         o.x = 3.5*w/28;
         o.y = 6.5*h/11;
     }
@@ -1268,42 +1416,42 @@ function updateData3_32(o){
 /////////////////////////////////////////////////////////////////////
 function updateData3_33(o){
     o.x = o.x + 20;
-    if (o.x > 340){
+    if (o.x > 560){
         o.x = 2.5*w/9;
         o.y = 6.65*h/9
     }
 }
 function updateData3_34(o){
     o.x = o.x + 20;
-    if (o.x > 420){
-        o.x = 3.3*w/9;
+    if (o.x > 610){
+        o.x = 3.5*w/9;
         o.y = 4.51*h/9
     }
 }
 function updateData3_35(o){
     o.x = o.x + 20;
-    if (o.x > 500){
+    if (o.x > 730){
         o.x = 3.8*w/9;
         o.y = 3.8*h/9
     }
 }
 function updateData3_36(o){
     o.x = o.x + 20;
-    if (o.x > 560){
+    if (o.x > 830){
         o.x = 4.5*w/9;
         o.y = 4.5*h/9
     }
 }
 function updateData3_37(o){
     o.x = o.x + 20;
-    if (o.x > 640){
+    if (o.x > 940){
         o.x = 4.5*w/9;
         o.y = 5.25*h/9
     }
 }
 function updateData3_38(o){
     o.x = o.x + 20;
-    if (o.x > 780){
+    if (o.x > 1150){
         o.x = 4.5*w/9;
         o.y = 5.95*h/9
     }
@@ -1326,78 +1474,78 @@ function updateData3_39_1(o){
 }/////////////////////////////////////////////////////////////////////
 function updateData3_40(o){
     o.x = o.x + 20;
-    if (o.x > 855){
+    if (o.x > 1300){
         o.x = 0.4*w/9;
         o.y = 7.4*h/9
     }
 }
 function updateData3_41(o){
     o.x = o.x + 20;
-    if (o.x > 650){
+    if (o.x > 930){
         o.x = 4.6*w/9;
         o.y = 1.69*h/9
     }
 }
 function updateData3_42(o){
     o.x = o.x + 20;
-    if (o.x > 650){
-        o.x = 4.6*w/9;
+    if (o.x > 950){
+        o.x = 4.2*w/9;
         o.y = 3.1*h/9
     }
 }
 function updateData3_43(o){
     o.x = o.x + 20;
-    if (o.x > 730){
+    if (o.x > 1030){
         o.x = 5.2*w/9;
         o.y = 2.4*h/9
     }
 }
 function updateData3_44(o){
     o.x = o.x + 20;
-    if (o.x > 870){
+    if (o.x > 1320){
         o.x = 6.5*w/9;
         o.y = 1.7*h/9
     }
 }
 function updateData3_45(o){
     o.x = o.x + 20;
-    if (o.x > 860){
+    if (o.x > 1280){
         o.x = 6.5*w/9;
         o.y = 3.1*h/9
     }
 }
 function updateData3_46(o){
     o.x = o.x + 20;
-    if (o.x > 930){
+    if (o.x > 1380){
         o.x = 7.1*w/9;
         o.y = 2.4*h/9
     }
 }
 function updateData3_47(o){
     o.x = o.x + 20;
-    if (o.x > 900){
+    if (o.x > 1330){
         o.x = 7.1*w/9;
         o.y = 3.85*h/9
     }
 }
 function updateData3_48(o){
     o.x = o.x + 20;
-    if (o.x > 780){
-        o.x = 6.6*w/9;
+    if (o.x > 1150){
+        o.x = 6.2*w/9;
         o.y = 5.2*h/9
     }
 }
 function updateData3_49(o){
     o.x = o.x + 20;
     o.y = o.y + -16;
-    if (o.x > 230){
+    if (o.x > 270){
         o.x = 0.5*w/6;
         o.y = 4.95*h/9
     }
 }////////////////////////////////////////////////
 function updateData3_50(o){
     o.x = o.x + 20;
-    if (o.x > 720){
+    if (o.x > 1070){
         o.x = 6*w/9;
         o.y = 6.65*h/9
     }
@@ -1411,16 +1559,102 @@ function updateData3_51(o){
 } 
 function updateData3_52(o){
     o.y = o.y + 20;
-    if (o.y > 590){
+    if (o.y > 530){
         o.x = 1.2*w/9;
         o.y = 3.4*h/5;
     }
 } 
 function updateData3_53(o){
     o.x = o.x + 20;
-    if (o.x > 130){
+    if (o.x > 260){
         o.x = 0.8*w/9;
         o.y = 3.4*h/5;
+    }
+} 
+function updateData3_54(o){
+    o.y = o.y + 20;
+    if (o.y > 390){
+        o.x = 0.7*w/9;
+        o.y = 2.1*h/5;
+    }
+} 
+function updateData3_55(o){
+    o.x = o.x + 20;
+    if (o.x > 110){
+        o.x = 0.3*w/9;
+        o.y = 1.4*h/5;
+    }
+} 
+function updateData3_56(o){
+    o.x = o.x + 20;
+    if (o.x > 100){
+        o.x = 0.3*w/9;
+        o.y = 3.1*h/5;
+    }
+} 
+function updateData3_57(o){
+    o.x = o.x + 20;
+    if (o.x > 290){
+        o.x = 1.5*w/9;
+        o.y = 1.2*h/5;
+    }
+} 
+function updateData3_58(o){
+    o.x = o.x + 20;
+    if (o.x > 240){
+        o.x = 1*w/9;
+        o.y = 1.5*h/5;
+    }
+} 
+function updateData3_59(o){
+    o.x = o.x + 20;
+    if (o.x > 340){
+        o.x = 1.6*w/9;
+        o.y = 2.5*h/5;
+    }
+} 
+
+function updateData3_60(o){
+    o.x = o.x + 20;
+    if (o.x > 680){
+        o.x = 3.4*w/9;
+        o.y = 2.8*h/5;
+    }
+} 
+function updateData3_61(o){
+    o.y = o.y + 20;
+    if (o.y > 190){
+        o.x = 4.8*w/9;
+        o.y = 1.1*h/5;
+    }
+} 
+
+function updateData3_62(o){
+    o.x = o.x + 20;
+    if (o.x > 1080){
+        o.x = 6.2*w/9;
+        o.y = 2.1*h/5;
+    }
+} 
+function updateData3_62(o){
+    o.x = o.x + 20;
+    if (o.x > 1080){
+        o.x = 6.2*w/9;
+        o.y = 2.1*h/5;
+    }
+} 
+function updateData3_63(o){
+    o.x = o.x + 20;
+    if (o.x > 1320){
+        o.x = 7.7*w/9;
+        o.y = 3.1*h/5;
+    }
+} 
+function updateData3_64(o){
+    o.y = o.y + 20;
+    if (o.y > 490){
+        o.x = 7.4*w/9;
+        o.y = 2.7*h/5;
     }
 } 
 
