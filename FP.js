@@ -1,7 +1,7 @@
- var canvas;
+var canvas;
 var ctx;
 var w=1450; //1000
-var h=745; //700.
+var h=745; //700
 var color = 0;
 var oneDegree = 2*Math.PI/360;
 var a = 0; // Outer Boarder
@@ -1493,10 +1493,10 @@ function updateData3_31(o){
 }
 function updateData3_32(o){
     o.x = o.x + 30;
-    o.y = o.y - 25;
+    o.y = o.y - 29;
     if (o.x > 440){
-        o.x = 3.3*w/28;
-        o.y = 7.7*h/11;
+        o.x = 3.6*w/28;
+        o.y = 8.1*h/11;
     }
 }
 /////////////////////////////////////////////////////////////////////
@@ -1552,7 +1552,7 @@ function updateData3_39(o){
 }////////////////////////////////////////
 function updateData3_39_1(o){
     o.x = o.x + 21;
-    o.y = o.y + 21;
+    o.y = o.y + 27;
     if (o.x > 190){
         o.x = 0.8*w/9;
         o.y = 5.8*h/9
