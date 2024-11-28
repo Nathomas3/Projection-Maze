@@ -1,7 +1,7 @@
  var canvas;
 var ctx;
 var w=1450; //1000
-var h=745; //700
+var h=745; //700.
 var color = 0;
 var oneDegree = 2*Math.PI/360;
 var a = 0; // Outer Boarder
