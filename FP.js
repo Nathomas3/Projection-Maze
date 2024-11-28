@@ -1,7 +1,7 @@
-var canvas;
+ var canvas;
 var ctx;
 var w=1450; //1000
-var h=700; //700
+var h=745; //700
 var color = 0;
 var oneDegree = 2*Math.PI/360;
 var a = 0; // Outer Boarder
@@ -816,11 +816,76 @@ var m65 = {
     a: aMaze,
     angle: 0,
 }
-
-
-
-
-
+var m66 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m67 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m68 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m69 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m70 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
+var m71 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 71.7,
+    a: aMaze,
+    angle: 0,
+}
+var m72 = {
+    x:2*w/10,
+    changeX: 1,
+    y: h/2,
+    changeY:1,
+    r: radiusMaze,
+    c: 30,
+    a: aMaze,
+    angle: 0,
+}
 
 setUpCanvas();
 animationLoop();
@@ -977,13 +1042,13 @@ function animationLoop(){
         circle(m39);
         updateData3_38(m39);
         collisionMaze(c1,m39);
-        // circle(m40);
-        // updateData3_39(m40);
-        // collisionMaze(c1,m40);
+        circle(m40);
+        updateData3_39(m40);
+        collisionMaze(c1,m40);
 
-        // circle(m40_1);
-        // updateData3_39_1(m40_1);/////////////////////
-        // collisionMaze(c1,m40_1);
+        circle(m40_1);
+        updateData3_39_1(m40_1);/////////////////////
+        collisionMaze(c1,m40_1);
 
         circle(m41);
         updateData3_40(m41);
@@ -1021,18 +1086,18 @@ function animationLoop(){
         circle(m52);
         updateData3_51(m52);
         collisionMaze(c1,m52);
-        circle(m53);
-        updateData3_52(m53);
-        collisionMaze(c1,m53);
-        circle(m54);
-        updateData3_53(m54);
-        collisionMaze(c1,m54);
+        // circle(m53);
+        // updateData3_52(m53);
+        // collisionMaze(c1,m53);
+        // circle(m54);
+        // updateData3_53(m54);
+        // collisionMaze(c1,m54);
         circle(m55);
         updateData3_54(m55);
         collisionMaze(c1,m55);
-        circle(m56);
-        updateData3_55(m56);
-        collisionMaze(c1,m56);
+        // circle(m56);
+        // updateData3_55(m56);
+        // collisionMaze(c1,m56);
         circle(m57);
         updateData3_56(m57);
         collisionMaze(c1,m57);
@@ -1042,9 +1107,9 @@ function animationLoop(){
         circle(m59);
         updateData3_58(m59);
         collisionMaze(c1,m59);
-        circle(m60);
-        updateData3_59(m60);
-        collisionMaze(c1,m60);
+        // circle(m60);
+        // updateData3_59(m60);
+        // collisionMaze(c1,m60);
         circle(m61);
         updateData3_60(m61);
         collisionMaze(c1,m61);
@@ -1060,6 +1125,27 @@ function animationLoop(){
         circle(m65);
         updateData3_64(m65);
         collisionMaze(c1,m65);
+        circle(m66);
+        updateData3_65(m66);
+        collisionMaze(c1,m66);
+        circle(m67);
+        updateData3_66(m67);
+        collisionMaze(c1,m67);
+        circle(m68);
+        updateData3_67(m68);
+        collisionMaze(c1,m68);
+        circle(m69);
+        updateData3_68(m69);
+        collisionMaze(c1,m69);
+        circle(m70);
+        updateData3_69(m70);
+        collisionMaze(c1,m70);
+        circle(m71);
+        updateData3_70(m71);
+        collisionMaze(c1,m71);
+        circle(m72);
+        updateData3_71(m72);
+        collisionMaze(c1,m72);
 
 
     }
@@ -1187,7 +1273,7 @@ function updateData2(o){
 }
 function updateData3_1(o){
     o.y = o.y + 20;
-    if (o.y > 570){
+    if (o.y > 690){
         o.y = h/5; // o.y = 2*h/9;
         o.x = 0.3*w/10;
     }
@@ -1195,7 +1281,7 @@ function updateData3_1(o){
 // Third top
 function updateData3_2(o){
     o.y = o.y + 20;
-    if (o.y > 220){
+    if (o.y > 240){
         o.y = h/5;
        // o.x = w/2;
     }
@@ -1203,9 +1289,9 @@ function updateData3_2(o){
 //third bottom
 function updateData3_3(o){
     o.y = o.y + 20;
-    if (o.y > 520){
-        o.y = 5*h/8.5;
-        o.x = 2.17*w/10;
+    if (o.y > 570){
+        o.y = 5.63*h/8.5;
+        o.x = 2.2*w/10;
     }
 }
 function updateData3_4(o){
@@ -1217,9 +1303,9 @@ function updateData3_4(o){
 }
 function updateData3_5(o){
     o.y = o.y + 20;
-    if (o.y > 410){
+    if (o.y > 430){
         o.y = 2.5*h/5.8;
-        o.x = 2.9*w/10;
+        o.x = 3*w/10;
     }
 }
 function updateData3_6(o){
@@ -1231,28 +1317,28 @@ function updateData3_6(o){
 }
 function updateData3_7(o){
     o.y = o.y + 20;
-    if (o.y > 580){
+    if (o.y > 600){
         o.y = 6.7*h/9;
         o.x = 3.12*w/9;
     }
 }
 function updateData3_8(o){
     o.y = o.y + 20;
-    if (o.y > 520){
+    if (o.y > 500){
         o.y = 4.6*h/9;
         o.x = 3.79*w/9;
     }
 }
 function updateData3_9(o){
     o.y = o.y + 20;
-    if (o.y > 180){
-        o.y = 1.75*h/9;
-        o.x = 3.9*w/9;
+    if (o.y > 190){
+        o.y = 1.65*h/9;
+        o.x = 3.8*w/9;
     }
 }
 function updateData3_10(o){
     o.y = o.y + 20;
-    if (o.y > 300){
+    if (o.y > 310){
         o.y = 2.95*h/9;
         o.x = 3.79*w/9;
     }
@@ -1266,14 +1352,14 @@ function updateData3_11(o){
 }
 function updateData3_12(o){
     o.y = o.y + 20;
-    if (o.y > 360){
+    if (o.y > 370){
         o.y = 3.9*h/9;
         o.x = 4.46*w/9;
     }
 }
 function updateData3_13(o){
     o.y = o.y + 20;
-    if (o.y > 520){
+    if (o.y > 550){
         o.y = 6*h/9;
         o.x = 4.46*w/9;
     }
@@ -1287,21 +1373,21 @@ function updateData3_14(o){
 }
 function updateData3_15(o){
     o.y = o.y + 20;
-    if (o.y > 570){
+    if (o.y > 600){
         o.y = 6.65*h/9;
         o.x = 5.13*w/9;
     }
 }
 function updateData3_16(o){
     o.y = o.y + 20;
-    if (o.y > 400){
+    if (o.y > 420){
         o.y = 4.55*h/9;
         o.x = 5.13*w/9;
     }
 }
 function updateData3_17(o){
     o.y = o.y + 20;
-    if (o.y > 300){
+    if (o.y > 320){
         o.y = 3.2*h/9;
         o.x = 5.13*w/9;
     }
@@ -1310,47 +1396,47 @@ function updateData3_18(o){
     o.y = o.y + 20;
     if (o.y > 360){
         o.y = 2.5*h/9;
-        o.x = 5.79*w/9;
+        o.x = 5.89*w/9;
     }
 }
 function updateData3_19(o){
     o.y = o.y + 20;
-    if (o.y > 570){
+    if (o.y > 600){
         o.y = 10*h/13.5;
         o.x = 6*w/9;
     }
 }
 function updateData3_20(o){
     o.y = o.y + 20;
-    if (o.y > 120){
+    if (o.y > 140){
         o.y = 1*h/9;
         o.x = 5.79*w/9;
     }
 }
 function updateData3_21(o){
     o.y = o.y + 20;
-    if (o.y > 528){
+    if (o.y > 558){
         o.y = 6*h/9;
         o.x = 7.12*w/9;
     }
 }
 function updateData3_22(o){
     o.y = o.y + 20;
-    if (o.y > 420){
+    if (o.y > 440){
         o.y = 3.9*h/9;
         o.x = 6.45*w/9;
     }
 }
 function updateData3_23(o){
     o.y = o.y + 20;
-    if (o.y > 240){
+    if (o.y > 260){
         o.y = 1.8*h/9;
         o.x = 6.45*w/9;
     }
 }
 function updateData3_24(o){
     o.y = o.y + 20;
-    if (o.y > 400){
+    if (o.y > 430){
         o.y = 4.6*h/9;
         o.x = 7.12*w/9;
     }
@@ -1358,7 +1444,7 @@ function updateData3_24(o){
 function updateData3_25(o){
     o.y = o.y + 20;
     o.x = o.x - 4;
-    if (o.y > 510){
+    if (o.y > 600){
         o.y = 1*h/9;
         o.x = 8.59*w/9;
     }
@@ -1408,17 +1494,17 @@ function updateData3_31(o){
 function updateData3_32(o){
     o.x = o.x + 30;
     o.y = o.y - 25;
-    if (o.x > 350){
-        o.x = 3.5*w/28;
-        o.y = 6.5*h/11;
+    if (o.x > 440){
+        o.x = 3.3*w/28;
+        o.y = 7.7*h/11;
     }
 }
 /////////////////////////////////////////////////////////////////////
 function updateData3_33(o){
     o.x = o.x + 20;
-    if (o.x > 560){
+    if (o.x > 570){
         o.x = 2.5*w/9;
-        o.y = 6.65*h/9
+        o.y = 6.55*h/9
     }
 }
 function updateData3_34(o){
@@ -1458,25 +1544,26 @@ function updateData3_38(o){
 }
 function updateData3_39(o){
     o.x = o.x + 20;
-    o.y = o.y + 3
-    if (o.x > 290){
-        o.x = 2.1*w/9;
+    o.y = o.y +4
+    if (o.x > 445){
+        o.x = 2.15*w/9;
         o.y = 3.5*h/9
     }
 }////////////////////////////////////////
 function updateData3_39_1(o){
-    o.x = o.x + 20;
-    o.y = o.y + 13
-    if (o.x > 130){
+    o.x = o.x + 21;
+    o.y = o.y + 21;
+    if (o.x > 190){
         o.x = 0.8*w/9;
-        o.y = 5.0*h/9
+        o.y = 5.8*h/9
     }
 }/////////////////////////////////////////////////////////////////////
 function updateData3_40(o){
     o.x = o.x + 20;
+    o.y = o.y +0.7
     if (o.x > 1300){
         o.x = 0.4*w/9;
-        o.y = 7.4*h/9
+        o.y = 8.4*h/9
     }
 }
 function updateData3_41(o){
@@ -1537,10 +1624,10 @@ function updateData3_48(o){
 }
 function updateData3_49(o){
     o.x = o.x + 20;
-    o.y = o.y + -16;
-    if (o.x > 270){
+    o.y = o.y + -18;
+    if (o.x > 330){
         o.x = 0.5*w/6;
-        o.y = 4.95*h/9
+        o.y = 5.7*h/9
     }
 }////////////////////////////////////////////////
 function updateData3_50(o){
@@ -1580,7 +1667,7 @@ function updateData3_54(o){
 } 
 function updateData3_55(o){
     o.x = o.x + 20;
-    if (o.x > 110){
+    if (o.x > 0){
         o.x = 0.3*w/9;
         o.y = 1.4*h/5;
     }
@@ -1589,7 +1676,7 @@ function updateData3_56(o){
     o.x = o.x + 20;
     if (o.x > 100){
         o.x = 0.3*w/9;
-        o.y = 3.1*h/5;
+        o.y = 1.5*h/5;
     }
 } 
 function updateData3_57(o){
@@ -1601,14 +1688,14 @@ function updateData3_57(o){
 } 
 function updateData3_58(o){
     o.x = o.x + 20;
-    if (o.x > 240){
+    if (o.x > 0){
         o.x = 1*w/9;
         o.y = 1.5*h/5;
     }
 } 
 function updateData3_59(o){
     o.x = o.x + 20;
-    if (o.x > 340){
+    if (o.x > 350){
         o.x = 1.6*w/9;
         o.y = 2.5*h/5;
     }
@@ -1616,8 +1703,8 @@ function updateData3_59(o){
 
 function updateData3_60(o){
     o.x = o.x + 20;
-    if (o.x > 680){
-        o.x = 3.4*w/9;
+    if (o.x > 660){
+        o.x = 3.5*w/9;
         o.y = 2.8*h/5;
     }
 } 
@@ -1653,12 +1740,59 @@ function updateData3_63(o){
 function updateData3_64(o){
     o.y = o.y + 20;
     if (o.y > 490){
-        o.x = 7.4*w/9;
+        o.x = 7.6*w/9;
         o.y = 2.7*h/5;
     }
 } 
-
-
+function updateData3_65(o){
+    o.y = o.y + 20;
+    if (o.y > 6400){
+        o.x = 7.5*w/9;
+        o.y = 4*h/5;
+    }
+} 
+function updateData3_66(o){
+    o.y = o.y + 20;
+    if (o.y > 660){
+        o.x = 0.7*w/9;
+        o.y = 3.9*h/5;
+    }
+} 
+function updateData3_67(o){
+    o.y = o.y + 20;
+    if (o.y > 690){
+        o.x = 1.95*w/9;
+        o.y = 4.2*h/5;
+    }
+} 
+function updateData3_68(o){
+    o.x = o.x + 20;
+    if (o.x > 1080){
+        o.x = 4.3*w/9;
+        o.y = 7.3*h/9
+    }
+} 
+function updateData3_69(o){
+    o.x = o.x + 20;
+    if (o.x > 600){
+        o.x = 0.8*w/9;
+        o.y = 4.1*h/5;
+    }
+} 
+function updateData3_70(o){
+    o.x = o.x + 20;
+    if (o.x > 800){
+        o.x = 3.2*w/9;
+        o.y = 4.4*h/5;
+    }
+} 
+function updateData3_71(o){
+    o.y = o.y + 20;
+    if (o.y > 740){
+        o.x = 6.9*w/9;
+        o.y = 4.3*h/5;
+    }
+} 
 
 // third eight
 
@@ -1965,7 +2099,7 @@ function setUpCanvas(){
     canvas = document.querySelector("#myCanvas");
     canvas.width=w;
     canvas.height=h;
-    canvas.style.border= "5px solid purple";
+    canvas.style.border= "0px solid purple";
     ctx = canvas.getContext("2d");
     ctx.fillStyle = "black";
 }
